@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/content_vertical_margin"
+	android:paddingLeft="@dimen/content_horizontal_margin"
+	android:paddingRight="@dimen/content_horizontal_margin"
+	android:paddingTop="@dimen/content_vertical_margin">
+
+	<EditText
+		android:id="@+id/editText_result"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"
+		android:hint="@string/edittext_result"
+		android:textColor="@color/colorPrimary"
+		android:textSize="@dimen/text_size_big"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_alignParentStart="true"
+		android:layout_below="@+id/editText_result"
+		android:orientation="horizontal"
+		android:weightSum="3">
+
+		<Button
+			android:id="@+id/button_generate"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/button_generate"/>
+
+		<Button
+			android:id="@+id/button_copy"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="2"
+			android:text="@string/button_copy"/>
+	</LinearLayout>
+</RelativeLayout>

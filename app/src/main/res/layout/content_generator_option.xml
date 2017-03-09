@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<include
+		android:id="@+id/content_generator_option_length"
+		layout="@layout/content_generator_option_length"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"/>
+
+	<include
+		android:id="@+id/content_generator_option_upper"
+		layout="@layout/content_generator_option_upper"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_below="@+id/content_generator_option_length"/>
+
+	<include
+		android:id="@+id/content_generator_option_lower"
+		layout="@layout/content_generator_option_lower"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_below="@+id/content_generator_option_upper"/>
+
+	<include
+		android:id="@+id/content_generator_option_number"
+		layout="@layout/content_generator_option_number"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_below="@+id/content_generator_option_lower"/>
+
+	<include
+		android:id="@+id/content_generator_option_symbol"
+		layout="@layout/content_generator_option_symbol"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_below="@+id/content_generator_option_number"/>
+</RelativeLayout>

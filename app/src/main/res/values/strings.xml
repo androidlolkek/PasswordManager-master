@@ -1,0 +1,50 @@
+<resources>
+
+	<string name="app_name">Password Manager</string>
+
+	<string name="action_settings">Settings</string>
+
+	<string name="activity_main">My Password</string>
+	<string name="activity_generator">Generate Password</string>
+
+	<string name="textview_empty">No Password</string>
+	<string name="textview_date">Last Update : </string>
+
+	<string name="textview_length">Password Length</string>
+
+	<string name="textview_upper">Upper Case</string>
+	<string name="textview_upper_detail">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</string>
+
+	<string name="textview_lower">Lower Case</string>
+	<string name="textview_lower_detail">a b c d e f g h i j k l m n o p q r s t u v w x y z</string>
+
+	<string name="textview_number">Number</string>
+	<string name="textview_number_detail">0 1 2 3 4 5 6 7 8 9</string>
+
+	<string name="textview_symbol">Symbol</string>
+	<string name="textview_symbol_detail">~ ! @ # $ % ^ &amp; * ( ) +</string>
+
+	<string name="edittext_result">Password</string>
+	<string name="button_generate">Generate</string>
+	<string name="button_copy">Copy To Clipboard</string>
+
+	<string name="button_save">Save</string>
+	<string name="button_delete">Delete</string>
+	<string name="button_cancel">Cancel</string>
+
+	<string name="dialog_title_save">Are you sure to save?</string>
+	<string name="dialog_title_delete">Are you sure to delete?</string>
+	<string name="dialog_message">Please input account</string>
+
+	<string name="message_copy">Copy to clipboard</string>
+	<string name="message_save">Save to database</string>
+	<string name="message_delete">Delete from database</string>
+
+	<string name="database_name">PASSWORD.DB</string>
+	<string name="datebase_version">1</string>
+	<string name="table_name">Password</string>
+	<string name="col_id">_id</string>
+	<string name="col_account">account</string>
+	<string name="col_password">password</string>
+	<string name="col_date">date</string>
+</resources>

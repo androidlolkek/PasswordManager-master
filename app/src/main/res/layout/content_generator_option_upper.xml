@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/content_vertical_margin"
+	android:paddingLeft="@dimen/content_horizontal_margin"
+	android:paddingRight="@dimen/content_horizontal_margin"
+	android:paddingTop="@dimen/content_vertical_margin">
+
+	<TextView
+		android:id="@+id/textView_upper"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"
+		android:layout_toStartOf="@+id/switch_upper"
+		android:gravity="left|center_vertical"
+		android:text="@string/textview_upper"
+		android:textColor="@android:color/black"
+		android:textSize="@dimen/text_size_big"/>
+
+	<TextView
+		android:id="@+id/textView_upper_detail"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignEnd="@+id/textView_upper"
+		android:layout_alignParentStart="true"
+		android:layout_below="@+id/textView_upper"
+		android:gravity="left|center_vertical"
+		android:text="@string/textview_upper_detail"
+		android:textSize="@dimen/text_size_small"/>
+
+	<Switch
+		android:id="@+id/switch_upper"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/textView_upper_detail"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentTop="true"
+		android:gravity="center"/>
+</RelativeLayout>
